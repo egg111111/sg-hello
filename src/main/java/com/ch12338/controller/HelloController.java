@@ -9,6 +9,6 @@ public class HelloController {
 	@GetMapping("/hello")
 	public String helloPage(Model model) {
 		model.addAttribute("greeting", "Hi!");
-		return "";
+		return "hello";
 	}
 }
